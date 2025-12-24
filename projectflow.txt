@@ -2,3 +2,5 @@ dvc init
 mkdir s3
 dvc remote add -d myremote s3 
 dvc add data/
+dvc commit
+dvc push
